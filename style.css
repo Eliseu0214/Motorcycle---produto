@@ -1,0 +1,112 @@
+/*Parte responsiva*/
+@media screen and (min-width: 619px) {
+    .nav {
+        margin-right: 100px;
+    }
+}
+
+@media screen and (min-width: 619px) {
+   .Produto_principal{
+    margin-left: 110px;
+    margin-top: 70px;
+   }
+}
+
+@media screen and (min-width: 619px) {
+    .Produtos-secundarios{
+        margin-right: 95px;
+        margin-top: 70px;
+    }
+}
+
+@media screen and (min-width: 619px) {
+    .botoes-escolha{
+        margin-left: 310px;
+    }
+}
+
+/*Ajustes da responsividade para 1920px*/
+@media screen and (min-width: 1900px){
+    .Produto_principal{
+        margin-left: 110px;
+        margin-top: 110px;
+        width: 900px;
+        height: 680px;
+    }
+    .Produtos-secundarios{
+        margin-right: 95px;
+        margin-top: 110px;
+    }
+    .botoes-escolha{
+        margin-left: 400px;
+        margin-top: 30px !important;
+    }
+    .Fotos-mini{
+        width: 235px;
+        height: 195px;
+    }
+    .Title{
+        font-size: 50px !important;
+    }
+    .conteudo-principal-escrito {
+        font-size: 40px !important;
+    }
+    .Img-button {
+        height: 90px;
+        width: 90px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 1px !important;
+        margin-right: 30px !important;
+    }
+    .botão-WhatsApp {
+        width: 450px;
+    }
+    .texto {
+        font-size: 40px !important;
+    }
+    .forms {
+        height: 50px !important;
+        width: 50px !important;
+    }
+}
+
+/*Ajustes nos elementos da pagina */
+.conteudo-escrito {
+    font-family:'Arial';
+}
+
+.Img-button {
+    border-radius: 20px;
+}
+
+.botão-WhatsApp {
+    border-radius: 50px;
+    background-color: #fcb773;
+    border-style: none;
+}
+.texto {
+    color: black;
+}
+
+.forms {
+    height: 30px;
+    width: 30px;
+    border-radius: 180px;
+}
+
+.btn-green {
+    background-color: #39ff14;
+}
+
+.btn-red {
+    background-color: #ff0000;
+}
+
+.btn-orange {
+    background-color: #ffa500;
+}
+
+.btn-gray {
+    background-color: #d3d3d3;
+}
